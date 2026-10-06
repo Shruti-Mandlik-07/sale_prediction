@@ -1,28 +1,39 @@
-Sales Prediction Using Machine Learning
-A machine learning project that predicts monthly sales for a store using historical sales and store data.
-🚀 Live Demo
-Sales Prediction App
-🛠️ Technologies
+# 📊 Sales Prediction Using Machine Learning
+
+A Machine Learning project that predicts the **monthly sales of a store** using historical sales and store-related data.
+
+## 🚀 Live Demo
+
+👉 https://sale-prediction-efc2.onrender.com/
+
+## 🛠️ Technologies Used
+
 - Python
-- Pandas & NumPy
+- Pandas
+- NumPy
 - Scikit-learn
 - Streamlit
-- GitHub
+- Joblib
+- Git & GitHub
 - Render
-🤖 Models Used
-- Linear Regression
+
+## 🤖 Machine Learning Models
+
+- Multiple Linear Regression
 - Ridge Regression
 - Lasso Regression
-- Decision Tree
-- Random Forest
-The best-performing model is saved as best_model.pkl and used in the Streamlit application.
-📂 Project Structure
+- Decision Tree Regressor
+- Random Forest Regressor
+
+The best-performing model is saved as `best_model.pkl` and integrated into the Streamlit application.
+
+## 📂 Project Structure
+
+```text
 sale_prediction/
+│
 ├── app.py
 ├── best_model.pkl
 ├── requirements.txt
-└── README.md
-
-👩‍💻 Author
-Shruti Mandlik
-GitHub
+├── README.md
+└── .gitignore
